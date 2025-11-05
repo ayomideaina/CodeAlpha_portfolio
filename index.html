@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayomide Aina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+
+    <header class="fixed w-full top-0 bg-white dark:bg-gray-900 shadow z-50" style=" font-family: var(--heading-font); ">
+        <div class="max-w-6xl mx-auto flex justify-between items-center py-5 md:px-10 px-6">
+            <!-- Brand -->
+            <a href="#" class="font-bold text-lg md:text-2xl text-[var(--primary-color)]" >
+                Ayomide<span class="text-gray-800 dark:text-gray-100"> A.E</span>
+            </a>
+
+            <!-- Nav Menu -->
+            <nav id="navMenu" class="hidden md:flex space-x-8 text-2sm">
+                <a href="#about" class="hover:text-[var(--primary-color)] transition-colors duration-300">About</a>
+                <a href="#skills" class="hover:text-[var(--primary-color)] transition-colors duration-300">Skills</a>
+                <a href="#projects" class="hover:text-[var(--primary-color)] transition-colors duration-300">Experiences</a>
+                <a href="#experience" class="hover:text-[var(--primary-color)] transition-colors duration-300">Projects</a>
+                <a href="#contact" class="hover:text-[var(--primary-color)] transition-colors duration-300">Contact Me</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menuButton" class="focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- hero section -->
+    <section id="hero" class="max-w-6xl mx-auto flex flex-col-reverse md:flex-row justify-around items-center mt-10 gap-8 px-6 md:px-10">
+        <div class="text-center md:text-left max-w-xl order-2 md:order-1 mt-12 md:mt-0 pt-10" style=" font-family: var(--secondary-font);">
+            <p class="text-lg font-semibold mb-2">Hi,</p>
+            <h1 class="text-xl md:text-3xl font-bold my-2">
+            I'm <span class="text-[var(--primary-color)]">Ayomide Aina</span>
+            </h1>
+            <h2 id="role-title" class="text-lg md:text-xl text-gray-900 dark:text-gray-300">
+                a Frontend Developer,
+            </h2>
+            <p id="role-text" class="text-lg md:text-xl text-gray-700 dark:text-gray-300">I'm passionate about creating user-friendly and visually appealing websites.</p>
+
+            <div class="flex flex-wrap justify-center md:justify-start gap-4 my-7">
+                <a href="https://github.com/ayomideaina" target="_blank"
+                    class="bg-[#171515] text-white p-3 rounded-full text-lg hover:bg-[#171515] transition duration-300">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/ayomideaina" target="_blank"
+                    class="bg-[#0A66C2] text-white p-3 rounded-full text-lg hover:bg-[#171515] transition duration-300">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:ayomideaina@gmail.com"
+                    class="bg-[#EA4335] text-white p-3 rounded-full text-lg hover:bg-[#171515] transition duration-300">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://hashnode.com/@ayomideaina" target="_blank"
+                    class="bg-[#2962FF] text-white p-3 rounded-full text-lg hover:bg-[#171515] transition duration-300">
+                    <i class="fa-brands fa-hashnode"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Hero Image -->
+        <div class=" mt-10 pt-10 order-1 md:order-2 hidden sm:block">
+            <img 
+            src="assets/images/Ayo.jpg" 
+            alt="Aina Ayomide" 
+            class="w-48 sm:w-64 md:w-[400px] lg:w-[500px] rounded-full object-cover shadow-lg"
+            >
+        </div>
+    </section>
+
+</body>
+</html>

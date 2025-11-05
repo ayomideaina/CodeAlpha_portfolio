@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-family: 'Poppins', sans-serif;
+    --secondary-font: 'Noto Sans', sans-serif;
+    --heading-font: 'Montserrat', sans-serif;
+    --primary-color: #1E90FF;
+    --color-accent: #FBBF24;
+    --color-text: #000000;
+    --color-bg: #FFFFFF;
+    --header-bg: #000000D9;
+}
